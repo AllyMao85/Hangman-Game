@@ -21,7 +21,7 @@ for (var i=0;i<computerGuess.length;i++) {
 
 
 
-//function to reset parameters when game is over
+//function to reset variables when game is over
 function resetfunc() {
     
     numberguessed=0;
