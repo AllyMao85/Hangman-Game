@@ -42,7 +42,7 @@ function resetfunc() {
     var audioElement = document.createElement("audio");
 //load singer's song and image when winning the game
 function wingame() {
-    document.getElementById("pic").innerHTML="<img class=\"singerimg\" src=\"assets/images/"+comGuessLower+".png\" width=\"260px\" alt=\""+computerGuess+"\">";
+    document.getElementById("pic").innerHTML="<img class=\"singerimg\" src=\"assets/images/"+computerGuess+".png\" width=\"260px\" alt=\""+computerGuess+"\">";
     document.getElementById("desc").innerHTML="Guess who is my next favorite singer?";
     // var audioElement = document.createElement("audio");
     //play music when win the game
