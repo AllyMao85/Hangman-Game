@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+   <header></header>
+   <!-- <p ondblclick="myFunction()" style="color:white">Double-click me to start a new game</p> -->
+   
+   <section class="rightcol">
+      <div class="game">
+          <span>
+            PRESS ANY KEY TO GET<br>
+            STARTED! <br><br>
+            WINS:<span id="winnumber"> 0</span><br><br>
+            CURRENT WORD<br><br>
+          </span>
+      
+    <span id="wordguessed"></span>
+    <br><br>
+      
+          <span>
+             NUMBER OF GUSSES<br>
+             REMAINING<br><br>
+          </span>
+          <span id="remaincount">12</span>
+             <br><br>
+          <span>
+             LETTERS OF ALREADY<br>
+             GUESSED<br><br>
+          </span>
+          <div id="letterguessed"></div>
+      </div>
+
+      <!-- <button onclick="myFunction(event)">Start a new game</button> -->
+   </section>
+
+   <section class="leftcol">
+        <div id="pic">
+           <img class="singerimg" src="assets/images/tw2.png" width="260px" alt="Tangwei picture">
+        </div>
+        <p id="desc">Guess who is my favorite singer?</p>
+   </section>
+
+
+    <script type="text/javascript" src="../Hangman-Game/assets/javascript/game.js"></script>
+</body>
+</html>
